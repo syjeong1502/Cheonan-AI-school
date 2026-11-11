@@ -14,12 +14,12 @@ export const AGE_GROUPS_META: Record<
   senior: {
     name: '시니어 (60세 이상 어르신)',
     subtext: '디지털 격차 해소 및 생활 밀착형 AI',
-    description: '스마트폰 기반 음성 인터페이스, 말벗 대화, 건강/복지 알림, 추억 사진 복원 및 손주 소통용 콘텐츠 제작 중심의 친근한 실습 교육',
+    description: '스마트폰 기반 음성 인터페이스, 말벗 대화, 건강 및 복지 알림, 추억 사진 복원 및 손주 소통용 콘텐츠 제작 중심의 친근한 실습 교육',
     recommendedTools: ['chatgpt', 'gemini', 'image_gen'],
     pedagogyTips: [
-      '스마트폰 화면 글자 크기 확대 및 음성 받아쓰기(STT) 적극 활용',
+      '스마트폰 화면 글자 크기 확대 및 음성 받아쓰기(STT) 기능 적극 활용',
       '전문 용어(Prompt, LLM 등) 대신 "인공지능 비서에게 말 걸기" 등 쉬운 비유 사용',
-      '1회당 실습 과제를 1~2개로 압축하고 짝꿍/반복 학습 세션 배치'
+      '1회당 실습 과제를 1~2개로 압축하고 짝꿍 협업 및 반복 학습 세션 배치'
     ],
     badgeColor: 'text-amber-800 bg-amber-50 border-amber-200'
   },
@@ -30,15 +30,15 @@ export const AGE_GROUPS_META: Record<
     recommendedTools: ['nanobanana', 'chatgpt', 'image_gen'],
     pedagogyTips: [
       '텍스트 입력 부담을 줄이고 블록형 인터페이스 및 드로잉 도구 결합',
-      'AI가 만들어낸 답변을 비판적으로 검토하는 팩트체크 놀이 활동 포함',
-      '개인정보(이름, 얼굴사진 등)를 AI에 입력하지 않도록 안전 수칙 철저 교육'
+      'AI가 만들어 낸 답변을 비판적으로 검토하는 팩트체크 놀이 활동 포함',
+      '개인정보(이름, 얼굴 사진 등)를 AI에 입력하지 않도록 안전 수칙 철저 교육'
     ],
     badgeColor: 'text-emerald-800 bg-emerald-50 border-emerald-200'
   },
   youth: {
     name: '중·고등학생 (청소년)',
     subtext: '논리적 탐구 & 문제 해결 AI',
-    description: 'Claude를 활용한 심층 독서 및 논리 글쓰기, 수학/과학 개념 시각화, 교과 탐구보고서 주제 발굴 및 비판적 사고력 함양',
+    description: 'Claude를 활용한 심층 독서 및 논리적 글쓰기, 수학·과학 개념 시각화, 교과 탐구 보고서 주제 발굴 및 비판적 사고력 함양',
     recommendedTools: ['claude', 'gemini', 'github'],
     pedagogyTips: [
       '단순 과제 대필 방지를 위해 "생각의 파트너"로서 질문을 발전시키는 프롬프트 기법 지도',
@@ -60,9 +60,9 @@ export const AGE_GROUPS_META: Record<
     badgeColor: 'text-blue-800 bg-blue-50 border-blue-200'
   },
   general: {
-    name: '소상공인·일반시민',
+    name: '소상공인·일반 시민',
     subtext: '생업 생산성 & 생활 자동화',
-    description: '천안 관내 자영업자와 시민을 위한 매장 홍보 카드뉴스 제작, 스마트스토어 상세페이지 기획, 행정 민원 서식 작성 자동화',
+    description: '천안 관내 자영업자와 시민을 위한 매장 홍보 카드 뉴스 제작, 스마트스토어 상세 페이지 기획, 행정 민원 서식 작성 자동화',
     recommendedTools: ['chatgpt', 'gemini', 'image_gen'],
     pedagogyTips: [
       '즉시 매출이나 일상 업무에 적용할 수 있는 템플릿(문구, 숏폼 대본) 제공',
@@ -88,7 +88,7 @@ export const AI_TOOLS_META: Record<
     name: 'ChatGPT (OpenAI)',
     developer: 'OpenAI',
     summary: '전 세계 표준 생성형 대화 AI, 멀티모달 음성 대화 및 GPTs 커스텀 봇 제작',
-    strengths: '직관적인 인터페이스, 음성 대화 지원, 광범위한 일상/업무 활용성',
+    strengths: '직관적인 인터페이스, 음성 대화 지원, 광범위한 일상 및 업무 활용성',
     typicalAudience: '전 연령 (특히 시니어 및 일반 시민 입문용)',
     iconLabel: 'GPT'
   },
@@ -96,7 +96,7 @@ export const AI_TOOLS_META: Record<
     name: 'Google Gemini',
     developer: 'Google',
     summary: '구글 워크스페이스(문서·시트·메일) 연동 및 실시간 웹 검색 기반 멀티모달',
-    strengths: '구글 생태계와 긴밀한 통합, 이미지·영상 동시 분석, 최신 실시간 정보 탐색',
+    strengths: '구글 생태계와의 긴밀한 통합, 이미지·영상 동시 분석, 최신 실시간 정보 탐색',
     typicalAudience: '대학생, 직장인, 스마트폰 활용 시니어',
     iconLabel: 'Gemini'
   },
@@ -105,7 +105,7 @@ export const AI_TOOLS_META: Record<
     developer: 'Anthropic',
     summary: '초장문 분석, 탁월한 한국어 작문 뉘앙스 및 구조적 기획서·코드 작성',
     strengths: '안전하고 정교한 추론, 긴 글 요약, 체계적인 논리 문서 작성',
-    typicalAudience: '중고등학생 탐구, 대학생 리포트, 기획자 및 강사',
+    typicalAudience: '중·고등학생 탐구, 대학생 리포트, 기획자 및 강사',
     iconLabel: 'Claude'
   },
   github: {
@@ -113,7 +113,7 @@ export const AI_TOOLS_META: Record<
     developer: 'GitHub / Microsoft',
     summary: '글로벌 개발 협업 플랫폼 및 AI 코딩 페어 프로그래머',
     strengths: '코드 자동 완성, 디버깅 설명, 버전 관리 및 오픈소스 프로젝트 협업',
-    typicalAudience: '대학생, 청년 취준생, IT 심화 교육생',
+    typicalAudience: '대학생, 청년 구직자, IT 심화 교육생',
     iconLabel: 'GitHub'
   },
   nanobanana: {
@@ -121,7 +121,7 @@ export const AI_TOOLS_META: Record<
     developer: 'AI 에듀테크 & 피지컬 컴퓨팅',
     summary: '어린이·초심자를 위한 비주얼 블록 기반 AI 알고리즘 & 스마트 교구',
     strengths: '코딩을 몰라도 드래그 앤 드롭으로 AI 카메라 비전, 모션 인식, 인터랙티브 프로젝트 구현',
-    typicalAudience: '초등학생, 청소년 방과후 교실, 메이커 동아리',
+    typicalAudience: '초등학생, 청소년 방과 후 교실, 메이커 동아리',
     iconLabel: 'Nano'
   },
   image_gen: {
@@ -160,11 +160,11 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
     keyObjectives: [
       '스마트폰에서 음성으로 ChatGPT와 대화하며 일상 질문 해결하기',
       '병원 진료 일정, 복약 알림, 날씨 및 대중교통 정보 똑똑하게 묻기',
-      '가족/손주에게 보낼 따뜻한 안부 편지와 생일 축하 메시지 작성'
+      '가족과 손주에게 보낼 따뜻한 안부 편지와 생일 축하 메시지 작성'
     ],
     syllabusOutline: [
       '1주차: 스마트폰 속 인공지능 친구 만나기 (음성 마이크 켜기와 첫 인사)',
-      '2주차: "오늘 날씨 어때?" 일상 비서로 써보는 음성 대화 꿀팁',
+      '2주차: "오늘 날씨 어때?" 일상 비서로 써 보는 음성 대화 꿀팁',
       '3주차: 건강 상식 묻기와 병원 방문 전 증상 메모 정리하기',
       '4주차: 손주에게 보내는 다정한 AI 축하 시(詩) 짓기와 낭독회'
     ],
@@ -176,31 +176,31 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
       totalWeeks: 4,
       hoursPerSession: 2,
       maxStudents: 15,
-      objective: '디지털 기기 사용이 어려운 60세 이상 어르신들이 음성 인터페이스를 통해 일상 생활에서 필요한 정보를 손쉽게 얻고 세대 간 소통의 즐거움을 누릴 수 있도록 돕는다.',
+      objective: '디지털 기기 사용이 어려운 60세 이상 어르신들이 음성 인터페이스를 통해 일상생활에서 필요한 정보를 손쉽게 얻고 세대 간 소통의 즐거움을 누릴 수 있도록 돕는다.',
       prerequisites: '스마트폰 전원 켜기 및 기본 조작이 가능한 천안 시민 누구나',
       targetAudienceDetail: '천안시 관내 60세 이상 시니어 15명 내외',
       hardwareRequirement: '수강생 개인 스마트폰 (Wi-Fi 연결 필수), 교육장 빔프로젝터 및 스크린 미러링 장비',
       softwareRequirement: 'OpenAI ChatGPT 모바일 공식 앱 (무료 계정 가입 지원)',
-      ageSpecificConsiderations: '화면 글자 크기를 최대로 설정하고, 영문 메뉴 대신 한글 모바일 UI를 철저히 점검합니다. 1:1 보조강사를 2명 배치하여 개별 밀착 지도를 제공합니다.',
-      expectedOutcome: '어르신들이 키보드 타이핑 스트레스 없이 음성으로 AI와 대화하며 나만의 따뜻한 가족 편지 카드 1종을 완성하여 전송.',
+      ageSpecificConsiderations: '화면 글자 크기를 최대로 설정하고, 영문 메뉴 대신 한글 모바일 UI를 철저히 점검합니다. 1:1 보조 강사를 2명 배치하여 개별 밀착 지도를 제공합니다.',
+      expectedOutcome: '어르신들이 키보드 타이핑 스트레스 없이 음성으로 AI와 대화하며 나만의 따뜻한 가족 편지 카드 1종을 완성하여 전송하기.',
       curriculum: [
         {
           week: 1,
-          topic: '스마트폰 속 인공지능 친구와 첫 만남',
+          topic: '스마트폰 속 인공지능 친구와의 첫 만남',
           lectureDetail: '생성형 AI가 무엇인지 쉬운 비유로 알아보고 스마트폰에 ChatGPT 앱 설치 및 한글 음성 설정',
-          practiceDetail: '음성 대화 버튼 누르고 "반가워! 내 이름은 ○○○야" 말해보기',
+          practiceDetail: '음성 대화 버튼을 누르고 "반가워! 내 이름은 ○○○야" 말해 보기',
           outcome: '앱 설치 완료 및 첫 음성 인사 성공'
         },
         {
           week: 2,
           topic: '일상의 궁금증을 척척 해결하는 AI 비서',
           lectureDetail: '음성으로 천안 날씨, 버스 노선, 근처 산책로 물어보는 요령',
-          practiceDetail: '"천안 태조산 공원 가는 길 알려줘", "혈압에 좋은 차는 뭐야?" 질문해보기',
+          practiceDetail: '"천안 태조산 공원 가는 길 알려 줘", "혈압에 좋은 차는 뭐야?" 질문해 보기',
           outcome: '음성 검색 3가지 이상 스스로 실행'
         },
         {
           week: 3,
-          topic: '사진을 보여주고 물어보는 눈 달린 AI',
+          topic: '사진을 보여 주고 물어보는 눈 달린 AI',
           lectureDetail: '스마트폰 카메라로 길거리 꽃이나 약 봉투를 촬영해 AI에게 물어보기',
           practiceDetail: '교육장 내 식물이나 안내문 사진을 찍고 "이게 무슨 꽃이니?" 질문 실습',
           outcome: '멀티모달 이미지 질문 1회 이상 성공'
@@ -218,14 +218,14 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
   {
     id: 'course-elementary-01',
     title: '나노바나나(NanoBanana)로 만드는 미래 AI 로봇 & 스마트 교실',
-    subtitle: '초등 눈높이에 맞춘 블록코딩과 비전 AI의 신나는 만남',
+    subtitle: '초등학생 눈높이에 맞춘 블록 코딩과 비전 AI의 신나는 만남',
     targetAge: 'elementary',
     primaryTool: 'nanobanana',
     duration: '8주 (정규 심화)',
     level: '입문',
     keyObjectives: [
       '나노바나나 블록형 인터페이스로 코딩 기본 구조(순차, 반복, 조건) 습득',
-      '웹캠을 통한 인공지능 이미지/모션 인식 모델 직접 학습시키기',
+      '웹캠을 통한 인공지능 이미지 및 모션 인식 모델 직접 학습시키기',
       '우리가 사는 천안시를 깨끗하게 만드는 스마트 쓰레기 분리수거 로봇 구현'
     ],
     syllabusOutline: [
@@ -246,13 +246,13 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
       totalWeeks: 8,
       hoursPerSession: 2,
       maxStudents: 16,
-      objective: '어려운 프로그래밍 문법 대신 친근한 나노바나나 블록과 AI 센서를 활용하여 초등학생들이 AI 원리를 체험하고 창의적 문제해결력을 기르도록 한다.',
+      objective: '어려운 프로그래밍 문법 대신 친근한 나노바나나 블록과 AI 센서를 활용하여 초등학생들이 AI 원리를 체험하고 창의적 문제 해결력을 기르도록 돕는다.',
       prerequisites: '마우스 클릭 및 기초 한글 읽기가 가능한 초등학교 3~6학년',
       targetAudienceDetail: '천안 관내 초등학생 16명 (2인 1조 8팀)',
       hardwareRequirement: '웹캠과 마이크가 구비된 PC실 (1인 1대 또는 2인 1대), 나노바나나 교구 세트',
       softwareRequirement: '나노바나나 웹 에디터 (Chrome 브라우저 기반, 별도 설치 불필요)',
-      ageSpecificConsiderations: '집중 시간이 짧은 초등학생 특성을 고려하여 15분 설명 후 25분 만들기 실습으로 호흡을 맞춥니다. 안전한 인터넷 윤리 규칙을 매 차시 시작 전 3분간 리마인드합니다.',
-      expectedOutcome: '학생 스스로 카메라에 사물을 비추면 반응하는 나만의 AI 인터랙티브 창작물 1종 제작 및 발표.',
+      ageSpecificConsiderations: '집중 시간이 짧은 초등학생 특성을 고려하여 15분 설명 후 25분 만들기 실습으로 호흡을 맞춥니다. 안전한 인터넷 윤리 규칙을 매 차시 시작 전 3분간 점검합니다.',
+      expectedOutcome: '학생 스스로 카메라에 사물을 비추면 반응하는 나만의 AI 인터랙티브 창작물 1종 제작 및 발표하기.',
       curriculum: [
         {
           week: 1,
@@ -272,7 +272,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
           week: 3,
           topic: '인공지능에게 공부시키기 (머신러닝 기초)',
           lectureDetail: '지도학습(데이터 수집, 라벨링, 학습) 개념 체득',
-          practiceDetail: '가위, 바위, 보 사진을 찍어 나만의 심판 AI 훈련',
+          practiceDetail: '가위, 바위, 보 사진을 찍어 나만의 심판 AI 훈련하기',
           outcome: '가위바위보 판정 모델 훈련'
         },
         {
@@ -286,7 +286,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
           week: 5,
           topic: '목소리로 작동하는 스마트 홈 어시스턴트',
           lectureDetail: '음성 인식(STT)과 명령어 조건문 처리',
-          practiceDetail: '"불 켜줘", "문 열어줘" 말하면 화면 속 조명이 켜지는 시스템 구축',
+          practiceDetail: '"불 켜 줘", "문 열어 줘" 말하면 화면 속 조명이 켜지는 시스템 구축',
           outcome: '음성 반응 스마트 홈 구현'
         },
         {
@@ -306,7 +306,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
         {
           week: 8,
           topic: '천안 어린이 AI 메이커 쇼케이스',
-          lectureDetail: '서로의 작품을 칭찬하고 개선 아이디어를 나누는 피어 리뷰',
+          lectureDetail: '서로의 작품을 칭찬하고 개선 아이디어를 나누는 동료 평가',
           practiceDetail: '가족과 친구들을 초청하여 작품 시연 및 소감 발표',
           outcome: '수료증 수여 및 포트폴리오 전시'
         }
@@ -315,7 +315,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
   },
   {
     id: 'course-youth-01',
-    title: 'Claude & Gemini로 완성하는 고교 논리적 탐구보고서와 프롬프트 사고력',
+    title: 'Claude & Gemini로 완성하는 고교 논리적 탐구 보고서와 프롬프트 사고력',
     subtitle: '대필이 아닌 지적 협업 파트너로서의 생성형 AI 활용법',
     targetAge: 'youth',
     primaryTool: 'claude',
@@ -330,29 +330,29 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
       '1주차: AI 시대의 진짜 사고력 - 왜 클로드의 논리 구조가 뛰어난가?',
       '2주차: 질문의 깊이가 결과를 결정한다 (단계적 사고 CoT 프롬프트 설계)',
       '3주차: AI의 거짓말(환각) 잡아내기 - 팩트체크와 교차 검증 실습',
-      '4주차: 천안형 스마트 미래 탐구보고서 발표 및 상호 비판 토론'
+      '4주차: 천안형 스마트 미래 탐구 보고서 발표 및 상호 비판 토론'
     ],
     recommendedKit: '개인 노트북 또는 태블릿 (PC실 제공)',
     templateProposal: {
-      title: 'Claude & Gemini로 완성하는 고교 논리적 탐구보고서와 프롬프트 사고력',
+      title: 'Claude & Gemini로 완성하는 고교 논리적 탐구 보고서와 프롬프트 사고력',
       targetAge: 'youth',
       primaryTool: 'claude',
       totalWeeks: 4,
       hoursPerSession: 3,
       maxStudents: 20,
-      objective: '중·고등학생들이 AI를 단순 정답 자판기로 쓰는 오용을 막고, 생각의 지평을 넓히는 논리적 대화 파트너로 활용하여 자기주도적 탐구 역량을 극대화한다.',
-      prerequisites: '문서 작성(한글 또는 워드) 기초가 가능한 중3~고3 청소년',
+      objective: '중·고등학생들이 AI를 단순 정답 자판기로 쓰는 오용을 막고, 생각의 지평을 넓히는 논리적 대화 파트너로 활용하여 자기 주도적 탐구 역량을 극대화한다.',
+      prerequisites: '문서 작성(한글 또는 워드) 기초가 가능한 중학교 3학년 ~ 고등학교 3학년 청소년',
       targetAudienceDetail: '천안시 청소년 20명',
       hardwareRequirement: '수강생 1인 1노트북 또는 스마트 디지털 교실 PC',
       softwareRequirement: '웹 브라우저 (Anthropic Claude 및 Google Gemini 무료 계정)',
-      ageSpecificConsiderations: '연구 윤리와 표절 방지 가이드라인을 강하게 교육합니다. AI가 써준 문장을 그대로 복사하는 것이 아니라 비판적 재구성 과정을 반드시 포트폴리오에 기록하도록 지도합니다.',
-      expectedOutcome: '자신만의 논리적 관점이 담긴 3페이지 내외의 소논문/탐구보고서 기획서 1편 완성.',
+      ageSpecificConsiderations: '연구 윤리와 표절 방지 가이드라인을 철저히 교육합니다. AI가 작성해 준 문장을 그대로 복사하는 것이 아니라 비판적 재구성 과정을 반드시 포트폴리오에 기록하도록 지도합니다.',
+      expectedOutcome: '자신만의 논리적 관점이 담긴 3쪽 내외의 소논문 및 탐구 보고서 기획서 1편 완성하기.',
       curriculum: [
         {
           week: 1,
           topic: 'AI와 나누는 소크라테스식 대화',
           lectureDetail: '단순 요약과 심층 추론의 차이점 및 Claude 아키텍처 특성',
-          practiceDetail: '관심 분야 주제를 입력하고 AI에게 반대 의견을 내놓도록 프롬프팅',
+          practiceDetail: '관심 분야 주제를 입력하고 AI에게 반대 의견을 제시하도록 프롬프팅',
           outcome: '탐구 주제 다각화 맵 작성'
         },
         {
@@ -360,7 +360,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
           topic: 'Chain-of-Thought 단계별 논리 프레임워크',
           lectureDetail: '복잡한 문제를 단계별로 쪼개어 해결하는 체계적 질문법',
           practiceDetail: '천안시 대중교통 배차 간격 문제 해결을 위한 다단계 가설 수립',
-          outcome: '단계적 문제해결 프롬프트 3단계 구축'
+          outcome: '단계적 문제 해결 프롬프트 3단계 구축'
         },
         {
           week: 3,
@@ -371,10 +371,10 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
         },
         {
           week: 4,
-          topic: '최종 탐구보고서 완성 및 피어 리뷰',
+          topic: '최종 탐구 보고서 완성 및 피어 리뷰',
           lectureDetail: 'AI 작성 출처 표기 표준 가이드라인 및 발표 전달력',
           practiceDetail: '각자 작성한 탐구 보고서 발표 및 상호 교차 질문 세션',
-          outcome: '최종 탐구기획서 1편 제출'
+          outcome: '최종 탐구 기획서 1편 제출'
         }
       ]
     }
@@ -389,14 +389,14 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
     level: '심화',
     keyObjectives: [
       'Git & GitHub 브랜치 전략(GitFlow)과 풀 리퀘스트(PR) 기반 코드 리뷰',
-      'GitHub Copilot을 이용한 단위 테스트(Unit Test) 자동 작성 및 성능 리팩토링',
+      'GitHub Copilot을 이용한 단위 테스트(Unit Test) 자동 작성 및 성능 리팩터링',
       'AI 기반 웹 서비스 배포 및 나만의 취업용 기술 포트폴리오 사이트 완성'
     ],
     syllabusOutline: [
-      '1주차: 개발자의 표준 언어 Git & GitHub 기초 환경 세팅',
+      '1주차: 개발자의 표준 언어 Git & GitHub 기초 환경 설정',
       '2주차: GitHub Copilot 페어 프로그래밍 - 나의 첫 AI 코딩 파트너',
-      '3주차: 팀 프로젝트 협업을 위한 Issue, Branch, PR 워크플로우',
-      '4주차: Copilot으로 테스트 코드 짜기와 레거시 코드 리팩토링',
+      '3주차: 팀 프로젝트 협업을 위한 Issue, Branch, PR 워크플로',
+      '4주차: Copilot으로 테스트 코드 짜기와 레거시 코드 리팩터링',
       '5주차: 생성형 AI API(Gemini / Claude SDK)를 연동한 미니 서비스 설계',
       '6주차: 실무 프로젝트 스프린트 - 천안 공공데이터 API 연동 웹앱 개발',
       '7주차: GitHub Pages / Cloud Run 무료 배포와 CI/CD 맛보기',
@@ -412,7 +412,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
       maxStudents: 18,
       objective: '소프트웨어 전공자 및 비전공 청년들이 최신 AI 코딩 도구를 통해 현업 수준의 협업 프로세스를 경험하고 취업 경쟁력 있는 포트폴리오를 구축하도록 지원한다.',
       prerequisites: 'HTML/CSS/JS 또는 Python 기본 문법 지식 보유자',
-      targetAudienceDetail: '천안/충남권 대학생 및 청년 구직자 18명',
+      targetAudienceDetail: '천안 및 충남권 대학생과 청년 구직자 18명',
       hardwareRequirement: '개인 노트북 (RAM 8GB 이상 권장), 교육장 고속 Wi-Fi',
       softwareRequirement: 'Visual Studio Code, Git, GitHub 계정, GitHub Copilot (학생 무료 또는 트라이얼)',
       ageSpecificConsiderations: '단순 지식 전달보다 현업 개발 문화(코드 리뷰 에티켓, 커밋 메시지 컨벤션)를 직접 체득할 수 있도록 모의 스프린트 방식으로 운영합니다.',
@@ -437,13 +437,13 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
           topic: '협업의 꽃: Branch와 Pull Request',
           lectureDetail: '협업 시 충돌(Conflict) 해결 기법과 코드 리뷰 문화',
           practiceDetail: '동료 수강생 레포지토리에 Issue 생성 및 PR 보내기',
-          outcome: '상호 PR 머지(Merge) 경험'
+          outcome: '상호 PR 병합(Merge) 경험'
         },
         {
           week: 4,
           topic: '신뢰성 높은 코드를 위한 테스트 자동화',
           lectureDetail: 'TDD 개념 및 Copilot Chat을 이용한 예외 케이스 테스팅',
-          practiceDetail: '주요 함수에 대한 Jest / PyTest 유닛 테스트 케이스 자동화',
+          practiceDetail: '주요 함수에 대한 Jest / PyTest 단위 테스트 케이스 자동화',
           outcome: '테스트 커버리지 80% 달성'
         },
         {
@@ -456,7 +456,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
         {
           week: 6,
           topic: '팀 스프린트: 천안 디지털 시민 서비스 구축',
-          lectureDetail: '애자일 보드(GitHub Projects)를 활용한 태스크 분배',
+          lectureDetail: '애자일 보드(GitHub Projects)를 활용한 작업 분배',
           practiceDetail: '팀별 역할 분담(Frontend, Backend, AI 연동) 및 집중 코딩',
           outcome: '통합 테스트 버전 빌드'
         },
@@ -480,19 +480,19 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
   {
     id: 'course-general-01',
     title: '천안 소상공인을 위한 생성형 AI 마케팅: 1시간 만에 끝내는 홍보 콘텐츠',
-    subtitle: 'ChatGPT와 Gemini, 이미지 AI로 매출 올리는 카드뉴스 & 숏폼 대본 제작',
+    subtitle: 'ChatGPT와 Gemini, 이미지 AI로 매출 올리는 카드 뉴스 & 숏폼 대본 제작',
     targetAge: 'general',
     primaryTool: 'image_gen',
     duration: '4주 (단기 특강)',
     level: '입문',
     keyObjectives: [
-      '우리 가게 메뉴/상품을 매력적으로 소개하는 인스타그램/블로그 카피라이팅',
-      '디자이너 없이 AI로 감각적인 홍보 포스터 및 이벤트 카드뉴스 제작',
+      '우리 가게 메뉴 및 상품을 매력적으로 소개하는 인스타그램/블로그 카피라이팅',
+      '디자이너 없이 AI로 감각적인 홍보 포스터 및 이벤트 카드 뉴스 제작',
       '네이버 플레이스 후기 관리와 고객 문의 응대 AI 챗봇 프롬프트 템플릿 확보'
     ],
     syllabusOutline: [
       '1주차: 바쁜 사장님을 위한 10분 AI 마케팅 입문 (챗GPT로 카피 뽑기)',
-      '2주차: 클릭을 부르는 인스타그램 카드뉴스와 홍보 포스터 AI 생성',
+      '2주차: 클릭을 부르는 인스타그램 카드 뉴스와 홍보 포스터 AI 생성',
       '3주차: 조회수 터지는 30초 숏폼 릴스/쇼츠 대본 AI로 5분 완성',
       '4주차: 리뷰 답변 자동화와 나만의 1인 마케팅 시스템 구축'
     ],
@@ -509,14 +509,14 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
       targetAudienceDetail: '천안시 소상공인 및 예비 창업자 20명',
       hardwareRequirement: '스마트폰 또는 개인 노트북',
       softwareRequirement: 'ChatGPT 모바일 앱, Canva (무료 AI 기능), Google Gemini',
-      ageSpecificConsiderations: '저녁 시간대 또는 휴무일 오프라인 강의를 편성하고, 실제 수강생의 매장 사진과 메뉴판을 가지고 즉석에서 실습 결과물을 뽑아내는 현장 밀착형으로 진행합니다.',
-      expectedOutcome: '수강생 본인 매장의 실제 홍보 포스터 1장 및 릴스 대본 1편 완성 즉시 업로드.',
+      ageSpecificConsiderations: '저녁 시간대 또는 휴무일 오프라인 강의를 편성하고, 실제 수강생의 매장 사진과 메뉴판을 가지고 즉석에서 실습 결과물을 도출하는 현장 밀착형으로 진행합니다.',
+      expectedOutcome: '수강생 본인 매장의 실제 홍보 포스터 1장 및 릴스 대본 1편 완성하여 즉시 업로드하기.',
       curriculum: [
         {
           week: 1,
           topic: '고객의 지갑을 여는 감성 카피라이팅',
           lectureDetail: '소구점 분석과 ChatGPT 타깃 맞춤형 문구 프롬프트',
-          practiceDetail: '내 가게 신메뉴 소개 문구 5종 생성해보고 가장 마음에 드는 것 선택',
+          practiceDetail: '내 가게 신메뉴 소개 문구 5종 생성해 보고 가장 마음에 드는 것 선택하기',
           outcome: '홍보 카피 5선 도출'
         },
         {
@@ -537,7 +537,7 @@ export const SAMPLE_COURSES: CourseCatalogItem[] = [
           week: 4,
           topic: '리뷰 관리 자동화와 단골 고객 케어',
           lectureDetail: '정중하고 진심 어린 악플/선플 대응 AI 가이드라인',
-          practiceDetail: '자주 들어오는 문의 및 후기 답변 템플릿 10개 만들어 저장',
+          practiceDetail: '자주 들어오는 문의 및 후기 답변 템플릿 10개 만들어 저장하기',
           outcome: '매장 전용 응대 프롬프트 북 완성'
         }
       ]
@@ -584,36 +584,36 @@ export const RECRUITMENT_SCHEDULE = [
   {
     step: '01',
     phase: '지원서 및 기획서 접수',
-    period: '2026. 11. 10(월) ~ 12. 05(금) 18:00',
+    period: '2026. 11. 10.(월) ~ 12. 05.(금) 18:00',
     description: '본 웹포털을 통한 온라인 지원서 및 강좌 개설 기획서 제출',
     status: 'current'
   },
   {
     step: '02',
     phase: '1차 서류 및 기획서 심사',
-    period: '2026. 12. 08(월) ~ 12. 10(수)',
+    period: '2026. 12. 08.(월) ~ 12. 10.(수)',
     description: '전문성, 기획서의 현실성, 연령대 맞춤 지도 계획성 정량·정성 평가',
     status: 'upcoming'
   },
   {
     step: '03',
-    phase: '2차 모의수업 & 면접 평가',
-    period: '2026. 12. 15(월) ~ 12. 17(수)',
-    description: '실전형: 10분 모의 강의 시연 / 육성형: 교육 참여 의지 및 잠재력 심층 면접',
+    phase: '2차 모의 수업 & 면접 평가',
+    period: '2026. 12. 15.(월) ~ 12. 17.(수)',
+    description: '실전 투입형: 10분 모의 강의 시연 / 육성 과정형: 교육 참여 의지 및 잠재력 심층 면접',
     status: 'upcoming'
   },
   {
     step: '04',
     phase: '최종 합격자 발표',
-    period: '2026. 12. 22(월) 14:00',
-    description: '천안시청 누리집 공고 및 개별 알림톡/문자 발송',
+    period: '2026. 12. 22.(월) 14:00',
+    description: '천안시청 누리집 공고 및 개별 알림톡 또는 문자 발송',
     status: 'upcoming'
   },
   {
     step: '05',
     phase: '위촉식 & 강사 아카데미 개강',
-    period: '2027. 01. 05(화) ~',
-    description: '실전형: 천안시 공인 위촉장 수여 및 강좌 배정 / 육성형: 60시간 집중 양성과정 개강',
+    period: '2027. 01. 05.(화) ~',
+    description: '실전 투입형: 천안시 공인 위촉장 수여 및 강좌 배정 / 육성 과정형: 60시간 집중 양성 과정 개강',
     status: 'upcoming'
   }
 ];
@@ -621,27 +621,27 @@ export const RECRUITMENT_SCHEDULE = [
 export const FAQ_LIST = [
   {
     category: '지원 자격',
-    question: '천안시민이 아니어도 지원할 수 있나요?',
-    answer: '원칙적으로 천안시에 주민등록을 둔 시민 또는 천안 소재 대학(원)생, 천안 관내 직장인을 우선 선발합니다. 단, 실전투입형의 경우 뛰어난 AI 실무 경력 또는 강의 포트폴리오를 보유한 인접 지역 지원자도 심사 대상에 포함될 수 있습니다.'
+    question: '천안 시민이 아니어도 지원할 수 있나요?',
+    answer: '원칙적으로 천안시에 주민등록을 둔 시민 또는 천안 소재 대학(원)생, 천안 관내 직장인을 우선 선발합니다. 단, 실전 투입형의 경우 뛰어난 AI 실무 경력 또는 강의 포트폴리오를 보유한 인접 지역 지원자도 심사 대상에 포함될 수 있습니다.'
   },
   {
     category: '트랙 선택',
-    question: '실전투입형과 육성과정형 중 어떤 트랙을 지원해야 하나요?',
-    answer: '이전에 생성형 AI나 IT 관련 강의 경험이 있거나, 실제 개발/실무 경력이 풍부해 즉시 강의실에 투입될 수 있다면 [실전 즉시투입형]을 추천합니다. AI 도구를 잘 다루고 가르치고 싶은 열정이 있으나 교수법이나 강의 경력이 부족하다면, 천안시가 60시간 동안 전액 무료로 강사 역량을 길러드리는 [AI 시민강사 육성과정형]을 지원하시면 됩니다.'
+    question: '실전 투입형과 육성 과정형 중 어떤 트랙을 지원해야 하나요?',
+    answer: '이전에 생성형 AI나 IT 관련 강의 경험이 있거나, 실제 개발 및 실무 경력이 풍부하여 즉시 강의실에 투입될 수 있다면 [실전 즉시 투입형]을 추천합니다. AI 도구를 잘 다루고 가르치고 싶은 열정이 있으나 교수법이나 강의 경력이 부족하다면, 천안시가 60시간 동안 전액 무료로 강사 역량을 길러 드리는 [AI 시민 강사 육성 과정형]을 지원하시면 됩니다.'
   },
   {
     category: '강좌 기획서',
     question: '강좌 기획서의 대상 연령대는 꼭 하나만 선택해야 하나요?',
-    answer: '효과적인 수업 설계를 위해 1개 기획서당 주 타깃 연령대(예: 시니어, 초등학생, 대학생 등)를 명확히 지정해 주셔야 합니다. 서로 다른 연령대를 위한 2개 이상의 강좌를 제안하고 싶으신 경우, 지원서를 복수로 제출하시거나 주력 강좌 1개를 본 기획서에 작성하시고 부가 강좌는 경력 소개란에 기재해 주시기 바랍니다.'
+    answer: '효과적인 수업 설계를 위해 기획서 1건당 주 타깃 연령대(예: 시니어, 초등학생, 대학생 등)를 명확히 지정해 주셔야 합니다. 서로 다른 연령대를 위한 2개 이상의 강좌를 제안하고 싶으신 경우, 지원서를 복수로 제출하시거나 주력 강좌 1개를 본 기획서에 작성하시고 부가 강좌는 경력 소개란에 기재해 주시기 바랍니다.'
   },
   {
     category: '교육 도구',
     question: '유료 AI 도구(구독 요금)를 수업에 사용해도 되나요?',
-    answer: '시민 대상 공공 평생교육 특성상, 무료 플랜(ChatGPT Free, Gemini, Claude 무료 플랜, NanoBanana 웹버전 등)을 기반으로 커리큘럼을 구성하는 것을 강력히 권장합니다. 부득이 유료 기능이 필요한 경우 천안시 교육장 전용 공용 라이선스 지원 가능 여부를 기획서에 명시해 주시면 심사에 참고합니다.'
+    answer: '시민 대상 공공 평생교육 특성상, 무료 플랜(ChatGPT Free, Gemini, Claude 무료 플랜, NanoBanana 웹 버전 등)을 기반으로 커리큘럼을 구성하는 것을 강력히 권장합니다. 부득이하게 유료 기능이 필요한 경우 천안시 교육장 전용 공용 라이선스 지원 가능 여부를 기획서에 명시해 주시면 심사에 참고합니다.'
   },
   {
     category: '강사 처우',
     question: '위촉 후 강사료와 활동 지원 혜택은 어떻게 되나요?',
-    answer: '천안시 인재양성재단 및 평생학습관 강사 수당 지급 조례에 의거하여 시간당 50,000원~70,000원(경력 및 강의 급수별 차등)의 강사료가 지급됩니다. 또한 수강생 15인 이상 실습 강좌의 경우 원활한 진행을 위해 [보조강사 1인]을 동반 배정하여 강의 부담을 덜어드립니다.'
+    answer: '천안시 인재양성재단 및 평생학습관 강사 수당 지급 조례에 의거하여 시간당 50,000원~70,000원(경력 및 강의 급수별 차등)의 강사료가 지급됩니다. 또한 수강생 15인 이상 실습 강좌의 경우 원활한 진행을 위해 [보조 강사 1인]을 동반 배정하여 강의 부담을 덜어 드립니다.'
   }
 ];

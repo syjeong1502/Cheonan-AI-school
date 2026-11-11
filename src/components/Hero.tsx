@@ -26,8 +26,8 @@ const HERO_SLIDES: SlideItem[] = [
     badge: 'Senior & Active Senior AI Track',
     targetCategory: '어르신·신중년의 새로운 디지털 도전',
     title: '스마트폰 비서부터 AI 글쓰기까지,',
-    subtitle: '천안시 어르신의 내일을 함께 열어갈 시민강사를 모십니다',
-    leadText: '말벗 ChatGPT 음성 대화, 병원·복약 알림, 손주를 위한 AI 동화와 추억 복원. 디지털 소외 없는 따뜻한 천안을 만드는 주인공이 되어주세요.',
+    subtitle: '천안시 어르신의 내일을 함께 열어 갈 시민 강사를 모십니다',
+    leadText: '말벗 ChatGPT 음성 대화, 병원 및 복약 알림, 손주를 위한 AI 동화와 추억 복원. 디지털 소외 없는 따뜻한 천안을 만드는 주인공이 되어 주세요.',
     tags: ['ChatGPT 음성 비서', '스마트폰 AI 활용', '시니어 눈높이 교육']
   },
   {
@@ -37,8 +37,8 @@ const HERO_SLIDES: SlideItem[] = [
     targetCategory: '배우는 기쁨, 가르치는 보람',
     title: '전 세대를 아우르는 천안형 AI 교육,',
     subtitle: '실전 경험자부터 양성 아카데미까지 맞춤 선발합니다',
-    leadText: '현장에 바로 출강할 실전 즉시투입형 강사와 60시간 전액 무료 교육으로 성장할 육성과정형 강사를 총 40명 내외로 모집합니다.',
-    tags: ['실전투입 20명', '아카데미육성 20명', '시간당 5~7만원']
+    leadText: '현장에 바로 출강할 실전 즉시 투입형 강사와 60시간 전액 무료 교육으로 성장할 육성 과정형 강사를 총 40명 내외로 모집합니다.',
+    tags: ['실전 투입 20명', '아카데미 육성 20명', '시간당 5~7만 원']
   },
   {
     id: 'slide-youth',
@@ -47,18 +47,18 @@ const HERO_SLIDES: SlideItem[] = [
     targetCategory: '꿈나무 어린이 & 청소년 창의 교실',
     title: '나노바나나(NanoBanana)와 생성형 AI로,',
     subtitle: '천안의 아이들에게 미래 기술의 호기심을 선물하세요',
-    leadText: '어려운 텍스트 코딩 대신 비주얼 블록 AI와 카메라 비전 센서, Claude 논리 탐구로 상상력을 마음껏 펼치는 재미있는 수업을 기획해주세요.',
+    leadText: '어려운 텍스트 코딩 대신 비주얼 블록 AI와 카메라 비전 센서, Claude 논리 탐구로 상상력을 마음껏 펼치는 재미있는 수업을 기획해 주세요.',
     tags: ['나노바나나 교구 지원', '비전 AI 로봇', '올바른 AI 윤리']
   },
   {
     id: 'slide-academy',
     image: '/src/assets/images/instructor_academy_1794378338719.jpg',
     badge: 'Cheonan AI Instructor Academy',
-    targetCategory: '60시간 집중 AI 교수법 양성과정',
+    targetCategory: '60시간 집중 AI 교수법 양성 과정',
     title: '경험이 부족해도 괜찮습니다,',
-    subtitle: '천안시가 공인 AI 전문강사로 탄탄하게 육성합니다',
-    leadText: '프롬프트 엔지니어링 실무부터 연령별 티칭 스킬, 보조강사 현장 실습까지 체계적인 멘토링으로 강사로서의 새로운 길을 열어드립니다.',
-    tags: ['교육비 전액 무료', '보조강사 실습 100%', '공인 위촉장 수여']
+    subtitle: '천안시가 공인 AI 전문 강사로 탄탄하게 육성합니다',
+    leadText: '프롬프트 엔지니어링 실무부터 연령별 티칭 스킬, 보조 강사 현장 실습까지 체계적인 멘토링으로 강사로서의 새로운 길을 열어 드립니다.',
+    tags: ['교육비 전액 무료', '보조 강사 실습 100%', '공인 위촉장 수여']
   }
 ];
 

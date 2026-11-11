@@ -28,7 +28,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="w-8 h-8 rounded-lg bg-blue-700 text-white flex items-center justify-center font-extrabold text-sm shadow-xs">
               천안
             </span>
-            <span>천안시 AI 시민강사 모집</span>
+            <span>천안시 AI 시민 강사 모집</span>
           </a>
 
           {/* Zone 2: Clean single-line text navigation links */}
@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors whitespace-nowrap shrink-0"
             >
               <Search className="w-3.5 h-3.5 text-slate-500" />
-              <span>접수내역 조회</span>
+              <span>접수 내역 조회</span>
             </button>
 
             <button

@@ -55,5 +55,5 @@ export interface ApplicationSubmission {
     portfolioUrl?: string;
   };
   proposal: CourseProposal;
-  status: '접수완료' | '1차서류검토중' | '면접심사대상' | '최종선발';
+  status: '접수 완료' | '1차 서류 검토 중' | '면접 심사 대상' | '최종 선발';
 }
